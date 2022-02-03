@@ -1,0 +1,20 @@
+import React, { Component } from 'react';
+import { Button, ButtonGroup, Container, Typography } from '@mui/material';
+
+class create extends Component {
+    render() {
+        return (
+        <Container>
+            <Typography
+                variant="h6"
+                color="primary"
+                align="center"
+            >
+                create a page
+            </Typography>
+           </Container>
+        );
+    }
+}
+
+export default create;
