@@ -1,0 +1,34 @@
+import React, { Component } from 'react';
+import { Button, ButtonGroup, Container, Typography } from '@mui/material';
+
+class create extends Component {
+    render() {
+        return (
+        <Container>
+            <Typography
+                variant="h6"
+                color="primary"
+                align="center"
+            >
+                create a page
+            </Typography>
+            {/* <Button type="submit">Submit</Button> */}
+            <Button
+            onClick={()=> console.log("you clicked me!! ")}
+                type="submit"
+                color="secondary"
+                variant="contained"
+            >
+                Submit
+            </Button>
+            {/* <ButtonGroup color="secondary" variant="contained">
+                <Button>one</Button>
+                <Button>one</Button>
+                <Button>one</Button>
+            </ButtonGroup> */}
+        </Container>
+        );
+    }
+}
+
+export default create;
